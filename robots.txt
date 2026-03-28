@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dai540.github.io/sitemap.xml
