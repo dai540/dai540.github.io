@@ -276,6 +276,9 @@ h2 {
 
 .project-card {
   min-height: 280px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
   padding: 22px;
   border: 1px solid var(--line);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(248, 249, 251, 0.9));
@@ -326,6 +329,7 @@ h3 {
 .card-detail {
   margin-top: 12px;
   max-width: 24rem;
+  min-height: 5.1em;
   line-height: 1.65;
   color: var(--muted);
 }
@@ -333,11 +337,12 @@ h3 {
 .card-links {
   gap: 20px;
   align-items: center;
-  margin-top: 42px;
+  margin-top: 24px;
   padding-top: 16px;
   border-top: 1px solid var(--line);
   font-weight: 600;
   flex-wrap: wrap;
+  align-self: end;
 }
 
 .footer-note {
