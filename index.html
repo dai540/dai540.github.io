@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dai</title>
+    <meta name="description" content="Personal projects and packages by Dai." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="layout">
+      <header class="site-header">
+        <a class="brand" href="#" aria-label="Dai home">Dai</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#projects">Projects</a>
+          <a href="https://github.com/dai540" target="_blank" rel="noreferrer">GitHub</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="hero-label">Portfolio</p>
+            <h1>Dai</h1>
+            <p class="hero-line">Personal projects and packages.</p>
+          </div>
+
+          <aside class="profile-card" aria-labelledby="profile-title">
+            <p class="profile-label" id="profile-title">Profile</p>
+            <p class="profile-text">
+              PhD in Mathematical Sciences. Building personal projects and keeping a record of them here.
+            </p>
+            <dl class="profile-list">
+              <div>
+                <dt>Degree</dt>
+                <dd>PhD</dd>
+              </div>
+              <div>
+                <dt>Field</dt>
+                <dd>Mathematical Sciences</dd>
+              </div>
+              <div>
+                <dt>Focus</dt>
+                <dd>Packages, tools, and other small projects</dd>
+              </div>
+              <div>
+                <dt>Link</dt>
+                <dd>
+                  <a href="https://github.com/dai540" target="_blank" rel="noreferrer">github.com/dai540</a>
+                </dd>
+              </div>
+            </dl>
+          </aside>
+        </section>
+
+        <section class="projects-section" id="projects" aria-labelledby="projects-title">
+          <div class="section-head">
+            <h2 id="projects-title">Projects</h2>
+            <p>Selected work</p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="card-top">
+                <p class="card-type">Package</p>
+                <h3>expranno</h3>
+              </div>
+              <p class="card-body">R package for RNA-seq workflows.</p>
+              <div class="card-links">
+                <a href="https://dai540.github.io/expranno/" target="_blank" rel="noreferrer">Docs</a>
+                <a href="https://github.com/dai540/expranno" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </article>
+
+            <article class="project-card project-card-alt">
+              <div class="card-top">
+                <p class="card-type">Package</p>
+                <h3>heteff</h3>
+              </div>
+              <p class="card-body">R package for heterogeneous effect estimation.</p>
+              <div class="card-links">
+                <a href="https://dai540.github.io/heteff/" target="_blank" rel="noreferrer">Docs</a>
+                <a href="https://github.com/dai540/heteff" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="footer-note" aria-label="Future projects">
+          <p>More projects coming.</p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
