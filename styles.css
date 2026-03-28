@@ -221,6 +221,13 @@ h1 {
   font-weight: 600;
 }
 
+.profile-summary {
+  margin-top: 14px;
+  max-width: 27rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
 .profile-list {
   margin-top: 28px;
   display: grid;
@@ -316,6 +323,13 @@ h3 {
   color: var(--muted);
 }
 
+.card-detail {
+  margin-top: 12px;
+  max-width: 24rem;
+  line-height: 1.65;
+  color: var(--muted);
+}
+
 .card-links {
   gap: 20px;
   align-items: center;
@@ -323,6 +337,7 @@ h3 {
   padding-top: 16px;
   border-top: 1px solid var(--line);
   font-weight: 600;
+  flex-wrap: wrap;
 }
 
 .footer-note {

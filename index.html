@@ -6,14 +6,11 @@
     <title>Dai | Personal Projects and Packages</title>
     <meta
       name="description"
-      content="Personal projects and packages by Dai, a PhD in Mathematical Sciences."
-    />
-    <meta
-      name="keywords"
-      content="Dai, Mathematical Sciences, PhD, personal projects, packages, R packages, GitHub Pages"
+      content="Dai's personal website with projects, packages, and profile. PhD in Mathematical Sciences."
     />
     <meta name="author" content="Dai" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large" />
     <meta name="theme-color" content="#0057ff" />
     <link rel="canonical" href="https://dai540.github.io/" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -22,7 +19,7 @@
     <meta property="og:title" content="Dai | Personal Projects and Packages" />
     <meta
       property="og:description"
-      content="Personal projects and packages by Dai, a PhD in Mathematical Sciences."
+      content="Dai's personal website with projects, packages, and profile. PhD in Mathematical Sciences."
     />
     <meta property="og:url" content="https://dai540.github.io/" />
     <meta property="og:site_name" content="Dai" />
@@ -38,7 +35,7 @@
     <meta name="twitter:title" content="Dai | Personal Projects and Packages" />
     <meta
       name="twitter:description"
-      content="Personal projects and packages by Dai, a PhD in Mathematical Sciences."
+      content="Dai's personal website with projects, packages, and profile. PhD in Mathematical Sciences."
     />
     <meta name="twitter:image" content="https://dai540.github.io/og-image.png" />
 
@@ -59,6 +56,7 @@
             "url": "https://dai540.github.io/",
             "sameAs": ["https://github.com/dai540"],
             "jobTitle": "PhD",
+            "image": "https://dai540.github.io/og-image.png",
             "knowsAbout": ["Mathematical Sciences", "Personal projects", "Packages"]
           },
           {
@@ -66,6 +64,30 @@
             "name": "Dai",
             "url": "https://dai540.github.io/",
             "description": "Personal projects and packages by Dai, a PhD in Mathematical Sciences."
+          },
+          {
+            "@type": "ItemList",
+            "name": "Featured projects",
+            "itemListElement": [
+              {
+                "@type": "SoftwareSourceCode",
+                "position": 1,
+                "name": "expranno",
+                "url": "https://github.com/dai540/expranno",
+                "codeRepository": "https://github.com/dai540/expranno",
+                "programmingLanguage": "R",
+                "description": "R package for RNA-seq workflows."
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "position": 2,
+                "name": "heteff",
+                "url": "https://github.com/dai540/heteff",
+                "codeRepository": "https://github.com/dai540/heteff",
+                "programmingLanguage": "R",
+                "description": "R package for heterogeneous effect estimation."
+              }
+            ]
           }
         ]
       }
@@ -77,6 +99,7 @@
       <header class="site-header">
         <a class="brand" href="#" aria-label="Dai home">Dai</a>
         <nav class="site-nav" aria-label="Primary">
+          <a href="#profile">Profile</a>
           <a href="#projects">Projects</a>
           <a href="https://github.com/dai540" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
@@ -90,10 +113,13 @@
             <p class="hero-line">Personal projects and packages.</p>
           </div>
 
-          <aside class="profile-card" aria-labelledby="profile-title">
+          <aside class="profile-card" id="profile" aria-labelledby="profile-title">
             <p class="profile-label" id="profile-title">Profile</p>
             <p class="profile-text">
               PhD in Mathematical Sciences. Building personal projects and keeping a record of them here.
+            </p>
+            <p class="profile-summary">
+              This site is the main index for Dai's work, with links to package documentation, source repositories, and future projects.
             </p>
             <dl class="profile-list">
               <div>
@@ -111,7 +137,7 @@
               <div>
                 <dt>Link</dt>
                 <dd>
-                  <a href="https://github.com/dai540" target="_blank" rel="noreferrer">github.com/dai540</a>
+                  <a href="https://github.com/dai540" target="_blank" rel="noreferrer">GitHub profile: github.com/dai540</a>
                 </dd>
               </div>
             </dl>
@@ -121,7 +147,7 @@
         <section class="projects-section" id="projects" aria-labelledby="projects-title">
           <div class="section-head">
             <h2 id="projects-title">Projects</h2>
-            <p>Selected work</p>
+            <p>Selected work and package links</p>
           </div>
 
           <div class="projects-grid">
@@ -131,9 +157,12 @@
                 <h3>expranno</h3>
               </div>
               <p class="card-body">R package for RNA-seq workflows.</p>
+              <p class="card-detail">
+                Expression-matrix based workflows for annotation, metadata integration, deconvolution, and signature analysis.
+              </p>
               <div class="card-links">
-                <a href="https://dai540.github.io/expranno/" target="_blank" rel="noreferrer">Docs</a>
-                <a href="https://github.com/dai540/expranno" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://dai540.github.io/expranno/" target="_blank" rel="noreferrer">expranno documentation</a>
+                <a href="https://github.com/dai540/expranno" target="_blank" rel="noreferrer">expranno GitHub repository</a>
               </div>
             </article>
 
@@ -143,9 +172,12 @@
                 <h3>heteff</h3>
               </div>
               <p class="card-body">R package for heterogeneous effect estimation.</p>
+              <p class="card-detail">
+                Generalized random forest workflows for observational, survival, and instrumental-variable settings.
+              </p>
               <div class="card-links">
-                <a href="https://dai540.github.io/heteff/" target="_blank" rel="noreferrer">Docs</a>
-                <a href="https://github.com/dai540/heteff" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://dai540.github.io/heteff/" target="_blank" rel="noreferrer">heteff documentation</a>
+                <a href="https://github.com/dai540/heteff" target="_blank" rel="noreferrer">heteff GitHub repository</a>
               </div>
             </article>
           </div>
