@@ -67,11 +67,47 @@
           },
           {
             "@type": "ItemList",
-            "name": "Featured projects",
+            "name": "Featured packages",
             "itemListElement": [
               {
                 "@type": "SoftwareSourceCode",
                 "position": 1,
+                "name": "uccdf",
+                "url": "https://github.com/dai540/uccdf",
+                "codeRepository": "https://github.com/dai540/uccdf",
+                "programmingLanguage": "R",
+                "description": "R package for typed consensus clustering on structured mixed-type data frames."
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "position": 2,
+                "name": "litmap",
+                "url": "https://github.com/dai540/litmap",
+                "codeRepository": "https://github.com/dai540/litmap",
+                "programmingLanguage": "Python",
+                "description": "Python package for reproducible literature mapping."
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "position": 3,
+                "name": "turbocellatlas",
+                "url": "https://github.com/dai540/turbocellatlas",
+                "codeRepository": "https://github.com/dai540/turbocellatlas",
+                "programmingLanguage": "Python",
+                "description": "Python package for atlas-scale single-cell retrieval."
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "position": 4,
+                "name": "histgraph",
+                "url": "https://github.com/dai540/histgraph",
+                "codeRepository": "https://github.com/dai540/histgraph",
+                "programmingLanguage": "Python",
+                "description": "Python package for histology-to-spatial-biology modeling."
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "position": 5,
                 "name": "statsguider",
                 "url": "https://github.com/dai540/statsguider",
                 "codeRepository": "https://github.com/dai540/statsguider",
@@ -80,7 +116,7 @@
               },
               {
                 "@type": "SoftwareSourceCode",
-                "position": 2,
+                "position": 6,
                 "name": "expranno",
                 "url": "https://github.com/dai540/expranno",
                 "codeRepository": "https://github.com/dai540/expranno",
@@ -89,7 +125,7 @@
               },
               {
                 "@type": "SoftwareSourceCode",
-                "position": 3,
+                "position": 7,
                 "name": "heteff",
                 "url": "https://github.com/dai540/heteff",
                 "codeRepository": "https://github.com/dai540/heteff",
@@ -155,14 +191,116 @@
 
         <section class="projects-section" id="projects" aria-labelledby="projects-title">
           <div class="section-head">
-            <h2 id="projects-title">Projects</h2>
-            <p>Selected work and package links</p>
+            <h2 id="projects-title">Packages</h2>
+            <p>Current public packages and documentation</p>
           </div>
 
           <div class="projects-grid">
+            <article class="project-card project-card-alt">
+              <div class="card-top">
+                <p class="card-type">R package</p>
+                <h3>uccdf</h3>
+              </div>
+              <div class="card-copy">
+                <p class="card-body">R package for typed consensus clustering.</p>
+                <p class="card-detail">
+                  Mixed-type data-frame clustering with schema inference, resampling, null testing, supported K selection, and sample-level assignments.
+                </p>
+              </div>
+              <div class="card-links">
+                <a
+                  href="https://dai540.github.io/uccdf/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="uccdf documentation"
+                >Docs</a>
+                <a
+                  href="https://github.com/dai540/uccdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="uccdf GitHub repository"
+                >GitHub</a>
+              </div>
+            </article>
+
             <article class="project-card">
               <div class="card-top">
-                <p class="card-type">Package</p>
+                <p class="card-type">Python package</p>
+                <h3>litmap</h3>
+              </div>
+              <div class="card-copy">
+                <p class="card-body">Python package for reproducible literature mapping.</p>
+                <p class="card-detail">
+                  A package and documentation scaffold for explicit run artifacts, cluster mapping, and review-ready literature analysis outputs.
+                </p>
+              </div>
+              <div class="card-links">
+                <a
+                  href="https://dai540.github.io/litmap/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="litmap documentation"
+                >Docs</a>
+                <a
+                  href="https://github.com/dai540/litmap"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="litmap GitHub repository"
+                >GitHub</a>
+              </div>
+            </article>
+
+            <article class="project-card project-card-alt">
+              <div class="card-top">
+                <p class="card-type">Python package</p>
+                <h3>turbocellatlas</h3>
+              </div>
+              <div class="card-copy">
+                <p class="card-body">Python package for atlas-scale single-cell retrieval.</p>
+                <p class="card-detail">
+                  Compressed candidate generation with exact reranking, benchmark artifacts, and documentation for computational and wet-lab users.
+                </p>
+              </div>
+              <div class="card-links">
+                <a
+                  href="https://dai540.github.io/turbocellatlas/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="turbocellatlas documentation"
+                >Docs</a>
+                <a
+                  href="https://github.com/dai540/turbocellatlas"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="turbocellatlas GitHub repository"
+                >GitHub</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="card-top">
+                <p class="card-type">Python package</p>
+                <h3>histgraph</h3>
+              </div>
+              <div class="card-copy">
+                <p class="card-body">Python package for histology-to-spatial-biology modeling.</p>
+                <p class="card-detail">
+                  A pipeline-oriented package for whole-slide histology workflows, graph construction, teacher models, and breast-cancer modeling on compute servers.
+                </p>
+              </div>
+              <div class="card-links">
+                <a
+                  href="https://github.com/dai540/histgraph"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="histgraph GitHub repository"
+                >GitHub</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="card-top">
+                <p class="card-type">R package</p>
                 <h3>statsguider</h3>
               </div>
               <div class="card-copy">
@@ -189,7 +327,7 @@
 
             <article class="project-card">
               <div class="card-top">
-                <p class="card-type">Package</p>
+                <p class="card-type">R package</p>
                 <h3>expranno</h3>
               </div>
               <div class="card-copy">
@@ -216,7 +354,7 @@
 
             <article class="project-card project-card-alt">
               <div class="card-top">
-                <p class="card-type">Package</p>
+                <p class="card-type">R package</p>
                 <h3>heteff</h3>
               </div>
               <div class="card-copy">
