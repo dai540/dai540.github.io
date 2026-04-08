@@ -2,10 +2,22 @@
 
 Personal site for [dai540](https://github.com/dai540).
 
-This repository contains the source for [https://dai540.github.io](https://dai540.github.io), a simple portfolio site that currently highlights:
+This repository contains the source for [https://dai540.github.io](https://dai540.github.io), a portfolio site listing current public packages, tools, and technical projects.
 
+Current repositories highlighted on the site include:
+
+- `NestedWGCNA`
+- `uccdf`
+- `scdown`
+- `cce`
+- `statsguider`
 - `expranno`
 - `heteff`
+- `trait2gene`
+- `litmap`
+- `turbocellatlas`
+- `histgraph`
+- `oncoscape`
 
 ## Profile
 
